@@ -64,6 +64,12 @@ text-decoration: none;
   color: black;
 }
 
+.river {
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0 16px;
+}
+
 .projectcard {
   width: 100%;
   overflow-x: hidden;
