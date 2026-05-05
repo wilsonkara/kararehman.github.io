@@ -54,10 +54,6 @@ body {
   align-items: center;     /* Vertical */
 }
 
-a:hover {
-  color: blue;
-background-color: black;
-}
 
 #button {
   font-family: 'Roboto-Mono-Regular', 'garamond';
@@ -80,7 +76,7 @@ background-color: black;
 
 a {
    text-decoration: none; 
-    color: blue;
+    color: black;
     padding: 10px;
 }
 
@@ -209,7 +205,6 @@ a {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
   color: white;
-  background-color: black;
   padding: 10px;
   display: inline-block;
   max-width: 100%;
@@ -253,8 +248,7 @@ a {
 
   a {
    text-decoration: none; 
-    color: blue;
-background-color: #603333;
+    color: black;
 }
 
   .aboutdescription {
