@@ -46,7 +46,8 @@ body {
 
 .navigation {
 padding: 0px 20px; 
-  display: inline;
+  display: flex;
+  flex-direction: row; 
 }
 
 .navbutton {
@@ -241,8 +242,9 @@ text-decoration: none;
   padding: 0px;
 }
 
-.nav {
-  display: flex; 
+  .navigation {
+padding: 0px 20px; 
+  display: flex;
   flex-direction: column; 
 }
 
