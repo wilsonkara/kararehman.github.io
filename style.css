@@ -58,6 +58,10 @@ padding: 0px 20px;
   align-items: center;     /* Vertical */
 }
 
+a:active {
+text-decoration: none;
+}
+
 .projectcard {
   width: 100%;
   overflow-x: hidden;
