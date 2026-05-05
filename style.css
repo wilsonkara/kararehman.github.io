@@ -44,6 +44,10 @@ body {
   justify-content: space-between; 
 }
 
+.navigation {
+padding: 0px 20px; 
+}
+
 .navbutton {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
