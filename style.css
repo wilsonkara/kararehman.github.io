@@ -19,7 +19,7 @@ html, body {
 h1 {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
-  color: white;
+  color: black;
   display: block;
   margin: 20px;
   max-width: 60%;
@@ -27,12 +27,12 @@ h1 {
 }
 
 ::selection {
-background-color: white;
-  color: #2D68C4;
+background-color: black;
+  color: white;
 }
 
 body {
-  background-color: #2D68C4;
+  background-color: white;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -47,7 +47,7 @@ body {
 .links {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
-  background-color: #2D68C4;
+  background-color: black;
   display: flex; 
   flex-direction: row; 
   padding: 0px 20px;
@@ -55,14 +55,14 @@ body {
 }
 
 a:hover {
-  color: #FEFCF7;
-background-color: #603333;
+  color: blue;
+background-color: black;
 }
 
 #button {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
-  background-color: #2D68C4;
+  background-color: black;
   padding: 10px;
   display: inline-block;
   margin: 10px;
@@ -71,18 +71,16 @@ background-color: #603333;
   bottom: 10px; 
   left: 10px; 
   cursor: pointer;
-  border: 1px white solid;
 }
 
 #button:hover {
-  background-color: #2D68C4;
+  background-color: blue;
   color: white;
-  border: 1px white solid;
 }
 
 a {
    text-decoration: none; 
-    color: white;
+    color: blue;
     padding: 10px;
 }
 
@@ -117,7 +115,7 @@ a {
 .projectname {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 16px; 
-  color: white;
+  color: black;
   display: block;
   margin-bottom: 20px;
 }
@@ -125,7 +123,7 @@ a {
 .projectdescription {
   font-family: 'Roboto-Mono-Light', 'garamond';
   font-size: 16px; 
-  color: white;
+  color: black;
   display: block;
   width: 100%;
 }
@@ -148,7 +146,7 @@ a {
   font-size: 14px; 
   text-transform: uppercase;
   padding: 10px 0px;
-  color: white;
+  color: black;
 }
 
 .projectimg img {
@@ -160,7 +158,7 @@ a {
 .aboutdescription {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
-  color: white;
+  color: black;
   display: flex;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
@@ -211,7 +209,7 @@ a {
   font-family: 'Roboto-Mono-Regular', 'garamond';
   font-size: 18px; 
   color: white;
-  background-color: #2D68C4;
+  background-color: black;
   padding: 10px;
   display: inline-block;
   max-width: 100%;
@@ -255,7 +253,7 @@ a {
 
   a {
    text-decoration: none; 
-    color: #FEFCF7;
+    color: blue;
 background-color: #603333;
 }
 
