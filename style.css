@@ -234,7 +234,7 @@ text-decoration: none;
     height: auto;  /* maintain aspect ratio */
     object-fit: contain;
   }
-}
+
 
 .projectcard {
   overflow-x: visible; /* or remove overflow-x: hidden — it clips the carousel */
