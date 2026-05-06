@@ -10,8 +10,3 @@ document.querySelectorAll('.projectcard.open').forEach(card => {
         card.classList.remove('open');
       }
     });
-
- // toggle the clicked card
-    clickedCard.classList.toggle('open');
-  });
-});
