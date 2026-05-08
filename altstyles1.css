@@ -5,8 +5,8 @@
 }
 
 @font-face {
-  font-family: 'Roboto-Mono-Light';
-  src: url('docs/RobotoMono-Light.ttf');
+  font-family: 'FavoritBook';
+  src: url('docs/ABCFavorit-Book-Trial.otf');
   font-style: normal;
 }
 
@@ -91,7 +91,7 @@ text-decoration: none;
 }
 
 .projectdescription {
-  font-family: 'Roboto-Mono-Light', 'garamond';
+  font-family: 'FavoritBook', 'helvetica';
   font-size: 15px; 
   color: #CFE7ED;
   display: block;
@@ -126,7 +126,7 @@ text-decoration: none;
 }
 
 .imgcaption {
-  font-family: 'Roboto-Mono-Light', 'garamond';
+  font-family: 'FavoritBook', 'helvetica';
   font-size: 14px; 
   text-transform: uppercase;
   padding: 10px 0px;
@@ -167,7 +167,7 @@ text-decoration: none;
 }
 
 .aboutdescription {
-  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-family: 'FavoritBook', 'helvetica';  
   font-size: 18px; 
   color: #CFE7ED;
   display: flex;
