@@ -224,6 +224,7 @@ text-decoration: none;
 
   .projectname {
   font-size: 32px; 
+    line-height: 110%;
 }
 
 .imgcarousel {
@@ -273,6 +274,7 @@ text-decoration: none;
 
   .projectdescription {
   width: 100%;
+    font-size: 18px; 
   }
 
   .links {
