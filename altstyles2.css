@@ -98,36 +98,48 @@ text-decoration: none;
 .projectdescription {
   font-family: 'RadioRegular', 'helvetica';
   font-size: 15px; 
-  color: #E5460C;
+  color: #0635F0;
   display: block;
-  width: 100%;
+  width: 60%;
   margin: 0px 0px 20px 0px;
 }
 
 .imgcarousel {
-  flex-direction: column;
-  overflow-x: visible;
-  overflow-y: visible;
-  scroll-snap-type: none;
-  height: auto;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  align-items: center;
+  gap: 16px;
+  max-height: 363px;
 }
 
 .projectimg {
-  flex: 0 0 auto;
-  width: 100%;
-  padding: 0 0 16px 0;
+  padding: 20px 20px 20px 0px; 
+  scroll-snap-align: start;
+  height: 363px; /* set whatever max height you want */
+  max-height: 363px;
+  align-items: stretch;
 }
 
 .projectimg img {
-  width: 100%;
-  height: auto;
+  border-radius: 10px;
+  height: 100%;
+  width: auto;
+  max-height: 100%;
   object-fit: contain;
 }
 
 
-/* force expanded state */
+.projectimg img {
+  max-height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
 .expandedpreview {
-  display: block;
+  display: none;  
+  transition: all 0.3s ease;
 }
 
 .projectcard.open .expandedpreview {
@@ -138,8 +150,18 @@ text-decoration: none;
   transform: rotate(180deg);
 }
 
+.collapsedpreview {
+  position: relative; 
+  top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
 .collapsedpreview .projectname:last-child {
-  display: none;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .aboutdescription {
