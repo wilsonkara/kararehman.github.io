@@ -95,7 +95,7 @@ text-decoration: none;
   display: block;
   margin-bottom: 20px; 
   line-height: 110%;
-  text-transform: uppercase; 
+  text-transform: none; 
   }
 
 .projectdescription {
