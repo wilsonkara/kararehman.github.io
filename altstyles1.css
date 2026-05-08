@@ -30,7 +30,7 @@ background-color: black;
 }
 
 hr {
-  color: #0635F0;
+  border: #0635F0 .5px solid;
 }
 
 body {
