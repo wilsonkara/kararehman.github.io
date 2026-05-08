@@ -29,6 +29,10 @@ background-color: black;
   color: white;
 }
 
+hr {
+  color: #0635F0;
+}
+
 body {
   margin: 0;
   letter-spacing: -0.25px;
