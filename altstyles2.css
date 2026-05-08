@@ -53,7 +53,7 @@ padding: 0px 20px;
 }
 
 .navbutton {
-  font-family: 'RadioRegular' 'helvetica';
+  font-family: 'RadioRegular', 'helvetica';
   font-size: 15px; 
   color: #E5460C;
   display: flex; 
