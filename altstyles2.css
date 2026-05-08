@@ -137,21 +137,17 @@ padding: 0px 20px;
 }
 
 .imgcarousel {
-  display: flex;
-  flex-direction: row;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  align-items: center;
-  gap: 16px;
   max-height: 363px;
+  height: 363px;
+  align-items: stretch;
 }
 
 .projectimg {
   padding: 20px 20px 20px 0px; 
   scroll-snap-align: start;
-  height: 363px; /* set whatever max height you want */
-  max-height: 363px;
-  align-items: stretch;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .projectimg img {
@@ -161,7 +157,6 @@ padding: 0px 20px;
   max-height: 100%;
   object-fit: contain;
 }
-
 
 .projectimg img {
   max-height: 100%;
@@ -180,6 +175,14 @@ padding: 0px 20px;
 
 .projectcard.open .collapsedpreview .projectname:last-child {
   transform: rotate(180deg);
+}
+
+.projectcard.open .projectcontent {
+  overflow: visible;
+}
+
+.projectcard.open {
+  overflow: visible;
 }
 
 .collapsedpreview {
