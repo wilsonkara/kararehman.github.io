@@ -211,6 +211,11 @@ text-decoration: none;
   cursor: pointer; 
 }
 
+#theme-toggle:hover {
+  background-color: black;
+  color: white;
+}
+
 
 /* mobile styles */
 
