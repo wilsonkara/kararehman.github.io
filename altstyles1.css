@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Roboto-Mono-Regular';
-  src: url('docs/RobotoMono-Regular.ttf');
+  font-family: 'AsfaltBold';
+  src: url('docs/ABCAsfalt-Bold-Trial.otf');
   font-style: normal;
 }
 
@@ -15,7 +15,7 @@ html {
 }
 
 h1 {
-  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-family: 'AsfaltBold';
   font-size: 18px; 
   color: #CFE7ED;
   display: block;
@@ -51,7 +51,7 @@ padding: 0px 20px;
 }
 
 .navbutton {
-  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-family: 'AsfaltBold';
   font-size: 16px; 
   color: #CFE7ED;
   display: flex; 
@@ -83,7 +83,7 @@ text-decoration: none;
 }
 
 .projectname {
-  font-family: 'Roboto-Mono-Regular', 'garamond';
+  font-family: 'AsfaltBold';
   font-size: 15px; 
   color: #CFE7ED;
   display: block;
