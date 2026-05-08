@@ -205,6 +205,8 @@ text-decoration: none;
   position: absolute; 
   bottom: 20px; 
   cursor: pointer; 
+  color: #822828;
+  background-color: #E5460C;
 }
 
 
