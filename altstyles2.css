@@ -107,6 +107,10 @@ background-color: black;
   text-transform: uppercase;
 }
 
+#theme-toggle:hover {
+  background-color: #FBBFFB;
+}
+
 /* formatting styles */ 
 
 .header {
