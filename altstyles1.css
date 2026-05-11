@@ -166,7 +166,8 @@ text-decoration: none;
 
 .aboutdescription {
   font-family: 'EditorialOld', 'garamond';  
-  font-size: 20px; 
+  font-size: 28px;
+  letter-spacing: .25px;
   line-height: 130%;
   text-transform: none; 
   color: #009751;
@@ -174,7 +175,7 @@ text-decoration: none;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
   height: 100vh;   /* Full viewport height */
-  width: 50vw;
+  width: 60vw;
   margin: 0 auto; 
 }
 
