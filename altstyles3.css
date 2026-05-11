@@ -255,11 +255,11 @@ padding: 0px 20px;
 }
 
   h1 {
+  font-size: 16px;
   max-width: 100%;
   line-height: 115%;
   margin: 0px 0px 20px 0px;
-  font-size: 20px;
-}
+  }
 
   .projectname {
   font-size: 28px; 
