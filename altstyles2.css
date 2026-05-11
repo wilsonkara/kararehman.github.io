@@ -200,6 +200,7 @@ padding: 0px 20px;
   justify-content: space-between;
   cursor: pointer;
   align-items: center
+  padding: 10px 0;  
 }
 
 .collapsedpreview .projectname:last-child {
