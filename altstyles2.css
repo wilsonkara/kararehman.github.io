@@ -178,6 +178,10 @@ padding: 0px 20px;
   transition: all 0.3s ease;
 }
 
+.collapsedpreview .projectname {
+  margin-bottom: 0;
+}
+
 .projectcard.open .expandedpreview {
   display: block;
 }
