@@ -195,8 +195,6 @@ padding: 0px 20px;
 }
 
 .collapsedpreview {
-  position: relative; 
-  top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
