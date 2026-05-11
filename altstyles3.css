@@ -85,15 +85,15 @@ background-color: black;
 
 .aboutdescription {
   font-family: 'GramercyLight', 'garamond';  
-  font-size: 20px; 
+  font-size: 48px; 
+  line-height: 100%;
+  letter-spacing: -.25px;
   color: #603333;
   display: flex;
-  justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
   height: 100vh;   /* Full viewport height */
-  width: 50vw;
+  width: 100%;
   margin: 0 auto; 
-  line-height: 120%;
 }
 
 #theme-toggle {
