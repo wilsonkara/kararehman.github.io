@@ -209,8 +209,7 @@ text-decoration: none;
   bottom: 20px; 
   right: 20px; 
   cursor: pointer; 
-  border: #009751 1px solid; 
-  border-radius: 0px;
+  border: none; 
   text-decoration: none; 
   background-color: #FFF6E8; 
 }
