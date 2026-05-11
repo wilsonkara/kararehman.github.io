@@ -48,8 +48,8 @@ h1 {
   color: #E5460C;
   display: flex; 
   flex-direction: row; 
-  align-items: center;     /* Vertical */
-  padding-right: 20px; 
+  padding: 0px 20px;
+  align-items: center; 
 }
 
 a, a:active {
