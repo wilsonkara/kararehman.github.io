@@ -98,6 +98,7 @@ text-decoration: none;
 .thumbnail img {
   max-height: 40px;
   width: auto;
+  border: black 1px solid;
 }
 
 .previewleft {
