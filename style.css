@@ -115,6 +115,10 @@ text-decoration: none;
   flex: 1;
 }
 
+.expandedpreview:hover .thumbnail {
+  opacity: 0;
+}
+
 .projectcontent {
   margin: 0px;
   overflow: hidden;
