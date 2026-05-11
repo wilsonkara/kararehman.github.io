@@ -89,7 +89,7 @@ text-decoration: none;
   flex: 1;
 }
 
-.projecttext:hover {
+.collapsedpreview:hover {
   background-color: yellow;
 }
 
