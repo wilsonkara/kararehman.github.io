@@ -251,6 +251,11 @@ text-decoration: none;
   padding: 20px;
 }
 
+#theme-toggle {
+  color: #009751;
+  background-color: #FFF6E8; 
+}
+  
   h1 {
   max-width: 100%;
   line-height: 115%;
