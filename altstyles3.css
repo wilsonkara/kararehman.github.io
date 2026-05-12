@@ -99,11 +99,8 @@ background-color: #603333;
   line-height: 100%;
   letter-spacing: -.25px;
   color: #603333;
-  display: flex;
-  align-items: center;     /* Vertical */
-  height: 100vh;   /* Full viewport height */
-  width: 100%;
-  margin: 0 auto; 
+  min-height: 100vh;
+  margin: 60px 20px;
 }
 
 #theme-toggle {
