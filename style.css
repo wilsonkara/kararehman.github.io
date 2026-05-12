@@ -207,16 +207,18 @@ text-decoration: none;
   transition: transform 0.3s ease;
 }
 
+
 .aboutdescription {
   font-family: 'AugerMonoRegular', 'Courier New';
   font-size: 36px; 
   text-transform: uppercase; 
   letter-spacing: -1.5px;
   color: black;
-  display: block;
-  justify-content: center; /* Horizontal */
-  align-items: center;     /* Vertical */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 90vw;
+  min-height: 100vh;
 }
 
 
