@@ -42,6 +42,15 @@ h1 {
   line-height: 100%;
 }
 
+.homebutton {
+   font-family: 'RadioBlack', 'helvetica';
+  font-size: 16px; 
+  color: #822828;
+  position: fixed;
+  top: 20px; 
+  left: 20px
+}
+
 .navigation {
   padding: 0px 20px; 
   display: flex;
