@@ -213,7 +213,7 @@ text-decoration: none;
   text-transform: uppercase; 
   letter-spacing: -1.5px;
   color: black;
-  display: flex;
+  display: block;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
   max-width: 90vw;
