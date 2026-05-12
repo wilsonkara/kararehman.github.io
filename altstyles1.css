@@ -320,12 +320,11 @@ text-decoration: none;
 
   .aboutdescription {
   font-size: 18px;
-  display: grid;
-  justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
   width: 100%;
-  margin: 0 auto; 
+  margin: 40px 0px; 
 }
+
 
   .river {
   box-sizing: border-box;
