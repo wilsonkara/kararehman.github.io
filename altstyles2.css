@@ -83,6 +83,10 @@ text-decoration: none;
   text-transform: none; 
 }
 
+.projectname:hover {
+    color: #E5460C;
+}
+
 .projectdescription {
   font-family: 'RadioRegular', 'helvetica';
   font-size: 15px; 
