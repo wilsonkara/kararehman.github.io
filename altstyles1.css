@@ -103,6 +103,10 @@ text-decoration: none;
   text-transform: none; 
 }
 
+.projectname:hover {
+  color: #1DB679;
+}
+
 .projectdescription {
   font-family: 'FavoritBook', 'helvetica';
   font-size: 15px; 
