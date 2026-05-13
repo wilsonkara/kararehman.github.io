@@ -193,20 +193,13 @@ text-decoration: none;
 
 .aboutdescription {
   font-family: 'AugerMonoRegular', 'Courier New';
-  font-size: 36px; 
+  font-size: 32px; 
   text-transform: uppercase; 
   letter-spacing: -1.5px;
   color: black;
   max-width: 50ch;
   min-height: 100vh;
   margin: 60px 20px;
-}
-
-
-.aboutwrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
 }
 
 #theme-toggle {
